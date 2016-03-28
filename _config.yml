@@ -1,12 +1,14 @@
 # Site settings
 title: 1p Development ApS
 email: contact@1pdevelopment.com
+phone: 0045 22884549
 description: > # this means to ignore newlines until "baseurl:"
   Thoughts of a freelance consultant, moving his way through the IT industry.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://1pdevelopment.com" # the base hostname & protocol for your site
 twitter_username: JacobFriis
 github_username:  Friischling
+
 
 # Build settings
 markdown: kramdown
