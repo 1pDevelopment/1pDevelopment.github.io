@@ -24,7 +24,7 @@
                 </div>
                 <div class="meta">
                   <time class="published" datetime="{{ page.date | date: "%F" }}">{{ page.date | date: "%B %d, %Y" }}</time>
-                  {% for category in page.categories limit:1 %}
+                  {% for category in page.categories limit:4 %}
                     <a href="#">{{ category }}</a>
                   {% endfor %}
 
@@ -39,7 +39,7 @@
               {{ content }}
               <footer>
                 <ul class="stats">
-                {% for tag in page.tags limit:3 %}
+                {% for tag in page.tags limit:4 %}
                   <li><a href="#">{{ tag }}</a></li>
                 {% endfor %}
         <!--
